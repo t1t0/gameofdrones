@@ -6,16 +6,19 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development --watch"
+    "webpack": "webpack --mode development --watch",
+    "test": "jest --config jestConfig.js"
   },
   "keywords": [],
   "author": "Viktor Rodriguez",
   "license": "MIT",
   "dependencies": {
+    "babel-jest": "^24.8.0",
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
     "mongoose": "^5.6.3",
     "morgan": "^1.9.1",
+    "react-test-renderer": "^16.8.6",
     "reactstrap": "^8.0.0"
   },
   "devDependencies": {
@@ -23,6 +26,8 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.10.0",
+    "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
