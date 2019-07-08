@@ -15,7 +15,6 @@ app.use(express.json());
 
 //Routes
 app.use('/api/players', require('./routes/players'));
-app.use('/api/rules', require('./routes/moves'));
 
 //Static Files
 app.use(express.static(path.join(__dirname, 'public')));
