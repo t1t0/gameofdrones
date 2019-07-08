@@ -1,5 +1,9 @@
 # gameofdrones
  An UruIT test App
+ 
+ A rock, paper and scissor game app inspired in the tv show *The Big Bang Theory*.
+ It is setup to run the a modified version of the game
+ *the Rock, Paper, Scissor, Lizard, Spock Version.*
 
 
 # Instructions 
