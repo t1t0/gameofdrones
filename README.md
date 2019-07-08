@@ -18,6 +18,9 @@ Enter in the app folder and run the next command
 npm install
 ```
 
+##Database
+It runs in a test mongoDB database host in MongoDB Atlas cloud. if you want to change the database just change the database.js file in `/app` folder. 
+
 ## Run server
 Run the server with the following command
 
