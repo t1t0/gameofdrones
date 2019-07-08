@@ -1,0 +1,95 @@
+.App{ height: 100% !important;}
+.red-bbt{background-color: #f32321;}
+
+.flex{
+  display: -ms-flexbox; display: -webkit-flex; display: flex;
+}
+
+.flex-middle{
+  -ms-flex-align: center; -webkit-align-items: center; align-items: center;
+}
+
+.flex-bottom{
+  -ms-flex-align:end;-webkit-align-items:flex-end;align-items:flex-end;
+}
+.flex-top{
+  -ms-flex-align:start;-webkit-align-items:flex-start;align-items:flex-start;
+}
+
+.flex-center{
+  -ms-flex-pack:center; -webkit-justify-content:center; justify-content:center;
+}
+
+.flex-right{
+  -ms-flex-pack:end; -webkit-justify-content:flex-end; justify-content:flex-end;
+}
+
+.main-body{
+  height:100vh;
+}
+
+.container-height{
+  height:90%;
+}
+
+.full-height{
+  height:100%;
+}
+
+.width-100{ width:100%}
+
+.border-navbar{
+  box-shadow: 2px 1px 5px #000;
+}
+.start-button{
+  font-size: 28px !important;
+  box-shadow: 1px 1px 5px #000;
+  margin-bottom: 5%;
+}
+
+.navbar-items-margin{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.brand, .brand:hover{
+  color: #fff !important;
+}
+
+.score-table-container{
+  width:90%;
+  min-height: 100px;
+}
+
+.scoretable{
+  background-color: #fff;
+}
+
+.scoretable-1{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.scoretable-2{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.scoretable-player{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.scoretable-score{
+  font-size: 42px;
+  font-weight: bold;
+}
+.config-textarea{
+  width:100%;
+}
+
+.round-box{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
